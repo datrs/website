@@ -1,0 +1,14 @@
+{
+  "name": "dat-rs-website",
+  "short_name": "dat-rs-website",
+  "description": "Website for Dat Rust protocol",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "icons": [{
+    "src": "/assets/icon.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
