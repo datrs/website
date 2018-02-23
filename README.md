@@ -1,4 +1,4 @@
-# dat-rs-website
+# website
 Website for Dat Rust protocol
 
 ## Commands

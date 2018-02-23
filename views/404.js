@@ -1,6 +1,6 @@
 var html = require('choo/html')
 
-var TITLE = 'dat-rs-website - route not found'
+var TITLE = 'website - route not found'
 
 module.exports = view
 

@@ -1,6 +1,6 @@
 {
-  "name": "dat-rs-website",
-  "short_name": "dat-rs-website",
+  "name": "website",
+  "short_name": "website",
   "description": "Website for Dat Rust protocol",
   "start_url": "/",
   "display": "standalone",
