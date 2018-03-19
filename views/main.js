@@ -40,12 +40,20 @@ var links = [
 
 var reading = [
   {
+    name: 'Dat Protocol',
+    url: 'https://www.datprotocol.com/'    
+  },
+  {
+    name: 'Dat Enhancement Proposals',
+    url: 'https://github.com/datprotocol/DEPs'
+  },
+  {
     name: 'Dat Paper',
-    url: 'https://github.com/datproject/docs/blob/master/papers/dat-paper.md'
+    url: 'https://github.com/datprotocol/whitepaper/blob/master/dat-paper.pdf'
   },
   {
     name: 'SLEEP Paper',
-    url: 'https://github.com/datproject/docs/blob/master/papers/sleep.md'
+    url: 'https://github.com/datprotocol/whitepaper/blob/master/sleep.pdf'
   }
 ]
 
