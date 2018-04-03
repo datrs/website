@@ -68,7 +68,7 @@ function view (state, emit) {
         <section class="flex-column mw6">
           <h1 class="f2">dat.rs</h1>
           <p>
-            Rustlang implementation of the Dat Project protocols. The goal is to
+            Rustlang implementation of the Dat Project protocols. Development is community-led, join us at <a href="https://github.com/datrs">github.com/datrs</a>. The goal is to
             eventually bind to C, WebAssembly, Swift and Java to support most
             native platforms.
           </p>
