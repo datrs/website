@@ -3,6 +3,10 @@ var choo = require('choo')
 
 css('tachyons')
 
+css`body {
+  background-color: #2aca4b;
+}`
+
 var app = choo()
 if (process.env.NODE_ENV !== 'production') {
   app.use(require('choo-devtools')())
