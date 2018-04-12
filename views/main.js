@@ -55,7 +55,7 @@ function view (state, emit) {
   emit('DOMTitleChange', 'dat.rs')
 
   return html`
-    <body class="code lh-copy">
+    <body class="lh-copy font-archivo">
       <main class="pa4 flex flex-column flex-row-l center mw9">
         <section class="flex-column mw6">
           <h1 class="f2">dat.rs</h1>
