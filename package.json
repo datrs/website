@@ -11,7 +11,7 @@
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
-    "choo": "^6.8.0",
+    "choo": "^6.11.0-preview1",
     "choo-service-worker": "^2.4.0",
     "sheetify": "^7.2.0",
     "tachyons": "^4.9.1"
