@@ -16,7 +16,8 @@ css`
 
 css`
   body {
-    /* background-color: #2aca4b; */
+    background-color: #222222;
+    color: #ffffff;
   }
 
   h1, h2, h3, h4, h5, h6 {

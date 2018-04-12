@@ -46,9 +46,14 @@ function view (state, emit) {
   return html`
     <body class="lh-copy sans-serif">
       <main class="pa4 flex flex-column flex-row-l center mw9">
-        <section class="flex-column mw6">
-          <h1 class="f2">dat.rs</h1>
-          <p>
+        <section class="flex-column measure-narrow">
+          <h1 class="f-headline">
+            dat.rs
+          </h1>
+          <h2 class="f5 bt b--gray pt3">
+            Description
+          </h2>
+          <p class="pt3">
             Rustlang implementation of the Dat Project protocols. The goal is to
             eventually bind to C, WebAssembly, Swift and Java to support most
             native platforms.
@@ -63,14 +68,14 @@ function view (state, emit) {
             like fun to you; help is always welcome!
           </p>
         </section>
-        <section class="mw6 mt5 ml6-l flex flex-column">
-          <h2>
+        <section class="mw6 ml6-l flex flex-column">
+          <h2 class="f5 bt b--gray pt3">
             Repositories
           </h2>
           ${links.map((link, index) => html`
             <div class="mb3 pv3">
-              <strong>${index + 1}.</strong>
-              <a href=${link.url}>
+              <strong>${index + 1}. </strong>
+              <a href=${link.url} class="white">
                 ${link.name}
               </a>
               <br>
