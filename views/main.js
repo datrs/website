@@ -38,24 +38,13 @@ var links = [
   }
 ]
 
-var reading = [
-  {
-    name: 'Dat Paper',
-    url: 'https://github.com/datproject/docs/blob/master/papers/dat-paper.md'
-  },
-  {
-    name: 'SLEEP Paper',
-    url: 'https://github.com/datproject/docs/blob/master/papers/sleep.md'
-  }
-]
-
 module.exports = view
 
 function view (state, emit) {
   emit('DOMTitleChange', 'dat.rs')
 
   return html`
-    <body class="lh-copy font-archivo">
+    <body class="lh-copy sans-serif">
       <main class="pa4 flex flex-column flex-row-l center mw9">
         <section class="flex-column mw6">
           <h1 class="f2">dat.rs</h1>
@@ -73,16 +62,6 @@ function view (state, emit) {
             But we're convinced we can pull it off. Get involved if this sounds
             like fun to you; help is always welcome!
           </p>
-          <article class="mt5">
-            <h2>Further Reading</h2>
-            <ul>
-              ${reading.map(link => html`
-                <li class="mt3"><a href=${link.url}>
-                  ${link.name}
-                </a></li>
-              `)}
-            </ul>
-          </article>
         </section>
         <section class="mw6 mt5 ml6-l flex flex-column">
           <h2>
