@@ -28,7 +28,7 @@ function el (item, i) {
       <p class="gray f5 mt0">
         ${item.category}
       </p>
-      <p class="f3 mt2 bold">
+      <p class="f3 mt2 bold archivo">
         ${item.description}
       </p>
     </article>

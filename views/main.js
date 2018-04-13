@@ -11,10 +11,8 @@ function view (state, emit) {
     <body class="lh-copy sans-serif">
       <main class="pa4 flex flex-column flex-row-l center mw9">
         <section class="flex-column measure-narrow">
-          <h1 class="f-headline">
-            dat.rs
-          </h1>
-          <h2 class="f5 bt b--gray pt3">
+          <img src="/assets/icon.svg" height="200px" width="200px" class="white ml5">
+          <h2 class="f5 bt b--gray pt3 mt4">
             Description
           </h2>
           <p class="pt3">
@@ -38,7 +36,7 @@ function view (state, emit) {
         </section>
         <section class="mw7 ml6-l flex flex-column w-100">
           <span class="f6 w-100 tl b mb3">
-            REPOSITORIES
+            Repositories
           </span>
           ${state.cache(Tree, 'tree').render()}
         </section>
