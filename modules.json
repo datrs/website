@@ -1,0 +1,47 @@
+[
+  {
+    "name": "flat-tree",
+    "description": "Map a binary tree to a vector.",
+    "category": "Data Structures & Algorithms"
+  },
+  {
+    "name": "merkle-tree-stream",
+    "description": "A stream that generates a merkle tree based on the incoming data.",
+    "category": "Data Structures & Algorithms"
+  },
+  {
+    "name": "sleep-parser",
+    "description": "Parse Dat protocol SLEEP files.",
+    "category": "Data Structures & Algorithms"
+  },
+  {
+    "name": "random-access-storage",
+    "description": "An abstract interface to implement reading / writing bytes to different backends from different offsets.",
+    "category": "Persistance"
+  },
+  {
+    "name": "random-access-memory",
+    "description": "Continuously read/write to memory using random offsets and lengths.",
+    "category": "Persistance"
+  },
+  {
+    "name": "random-access-disk",
+    "description": "Continuously read/write to disk using random offsets and lengths.",
+    "category": "Persistance"
+  },
+  {
+    "name": "tree-index",
+    "description": "Stateful tree index.",
+    "category": "Data Structures & Algorithms"
+  },
+  {
+    "name": "memory-pager",
+    "description": "Access memory using small fixed size buffers.",
+    "category": "Data Structures & Algorithms"
+  },
+  {
+    "name": "sparse-bitfield",
+    "description": "Bitfield that allocates a series of small buffers.",
+    "category": "Data Structures & Algorithms"
+  }
+]

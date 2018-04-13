@@ -31,11 +31,15 @@ function view (state, emit) {
             But we're convinced we can pull it off. Get involved if this sounds
             like fun to you; help is always welcome!
           </p>
+          <p>
+            To contribute to the project visit <a
+            href="https://github.com/datrs">github.com/datrs</a>.
+          </p>
         </section>
-        <section class="mw6 ml6-l flex flex-column">
-          <h2 class="f5 bt b--gray pt3">
-            Repositories
-          </h2>
+        <section class="mw7 ml6-l flex flex-column w-100">
+          <span class="f6 w-100 tl b mb3">
+            REPOSITORIES
+          </span>
           ${state.cache(Tree, 'tree').render()}
         </section>
       </main>
