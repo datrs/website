@@ -4,7 +4,6 @@ var path = require('path')
 var fs = require('fs')
 
 var deps = JSON.parse(fs.readFileSync(path.join(__dirname, '../modules.json'), 'utf8'))
-console.log('fuuu')
 
 module.exports = class Tree extends Component {
   render () {
