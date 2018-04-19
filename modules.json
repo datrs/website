@@ -43,5 +43,10 @@
     "name": "sparse-bitfield",
     "description": "Bitfield that allocates a series of small buffers.",
     "category": "Data Structures & Algorithms"
+  },
+  {
+    "name": "speedometer",
+    "description": "Measure throughput per second.",
+    "category": "Networking"
   }
 ]

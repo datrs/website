@@ -18,6 +18,7 @@ module.exports = class Tree extends Component {
 function el (item, i) {
   let pr = i % 2 ? '' : 'pr3-l'
   let pl = i % 2 ? 'pl3-l' : ''
+
   return html`
     <article class="flex flex-column mv3 fl w-100 w-50-l ${pr} ${pl}">
       <a href="https://github.com/datrs/${item.name}"
@@ -27,9 +28,11 @@ function el (item, i) {
       <p class="gray f5 mt0">
         ${item.category}
       </p>
-      <p class="f3 mt2 bold archivo">
+
+      <a href="https://github.com/datrs/${item.name}"
+        class="f3 mt2 bold archivo white">
         ${item.description}
-      </p>
+      </a>
     </article>
   `
 }
